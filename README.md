@@ -1,7 +1,27 @@
 # Machine Learning Model for Predicting Product Returns in E-Commerce
 
-This project builds a Random Forest machine learning model in R to predict
-whether a product purchased in an e-commerce platform will be returned.
+## Overview
+This project builds a Random Forest machine learning model to predict whether a purchased product will be returned based on customer behavior data.
+
+## Dataset
+The dataset contains simulated e-commerce customer usage data including:
+
+- UsageDuration
+- CustomerSatisfactionScore
+- Category
+- Region
+- PurchaseAmount
+- WarrantyStatus
+- ReturnFlag (target)
+
+## Model
+Algorithm used:
+- Random Forest (500 trees)
+
+## Results
+
+Accuracy: **95.83%**  
+AUC Score: **0.9999**
 
 ## Model Performance
 
@@ -11,12 +31,12 @@ whether a product purchased in an e-commerce platform will be returned.
 ### ROC Curve
 ![ROC Curve](Images/roc_curve.png)
 
-## Results
-
-Accuracy: 95.83%  
-AUC Score: 0.9999
+## Technologies
+- R
+- randomForest
+- caret
+- pROC
+- ggplot2
 
 ## Author
 Shaik Naved Ahmed
-B.Tech Data Science
-SR University
